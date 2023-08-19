@@ -44,7 +44,6 @@ public class ContentProcessor {
 			// Wait for all threads to finish
 		}
 
-		//Calling the printResults method to display all the required things
 		printResults(totalLines.get(), totalSpaces.get(), totalTabs.get(), specialCharacterCounts);
 	}
 
